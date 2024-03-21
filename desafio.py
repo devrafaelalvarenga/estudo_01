@@ -4,9 +4,9 @@ ano_calculo = 2024
 constante_bonus = 1000
 
 #Solicite ao usuario que digite seu nome
-nome_usuario = input('Digite seu nome: ')
+nome_usuario = input('Digite seu nome: ').strip()
 if nome_usuario.isdigit():
-    print('Você digiou o nome errado')
+    print('Verifique o nome digitado')
     exit()
 elif len(nome_usuario) == 0:
     print('Verifique o nome digitado')
