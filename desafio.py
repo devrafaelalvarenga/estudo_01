@@ -1,4 +1,4 @@
-#Calculo bonus KPI de 2024
+#Calculo bonus KPI
 
 import sys
 
@@ -8,7 +8,6 @@ base_calculo_bonus = 1000
 #Solicite ao usuario que digite seu nome
 try:
     nome_usuario = input('Digite seu nome: ')
-
     #Verifica se nome contem digitos
     if any(char.isdigit() for char in nome_usuario):
         sys.exit('O nome não deve conter numeros.')
